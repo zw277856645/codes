@@ -118,5 +118,50 @@ Function.prototype.bind = function (context) {
 
 #### 防抖(debounce)实现？
 
+```javascript
+function debounce(handler, time) {
+    let flag = null;
+
+    return function () {
+        if (flag) {
+            clearTimeout(flag);
+        }
+
+        flag = setTimeout(handler, time);
+    }
+}
+```
+
 #### 节流(throttle)实现?
+
+```javascript
+function throttle(handler, time) {
+    let flag = null;
+
+    return function () {
+        let context = this;
+        let args = arguments;
+
+        if (!flag) {
+            flag = setTimeout(function () {
+                handler.apply(context, args);
+                flag = null;
+            }, time);
+        }
+    }
+}
+```
+
+---
+
+#### new 过程？
+
+1. 创建空对象
+2. 设置新对象的 constructor 属性为构造函数的名称，
+设置新对象的 \_\_proto\_\_ 属性指向构造函数的 prototype 对象
+3. 执行构造函数中的代码，构造函数中的 this 指向新对象
+4. 返回对象，并赋给等号左边的变量
+
+
+
   
