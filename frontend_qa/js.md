@@ -162,6 +162,80 @@ function throttle(handler, time) {
 3. 执行构造函数中的代码，构造函数中的 this 指向新对象
 4. 返回对象，并赋给等号左边的变量
 
+---
+
+#### 斐波那契数列
+
+##### 暴力递归
+
+```js
+function fib(n) {
+    if (n <= 2) {
+        return 1;
+    }
+
+    return fib(n - 2) + fib(n - 1);
+}
+```
+
+##### 递归 + 字典表 (自顶向下)
+
+```js
+function fib2(n) {
+    let dict = [];
+
+    return helper(n, dict);
+}
+
+function helper(n, dict) {
+    if (n <= 2) {
+        return 1;
+    }
+
+    if (dict[ n ]) {
+        return dict[ n ];
+    }
+
+    dict[ n ] = helper(n - 2, dict) + helper(n - 1, dict);
+
+    return dict[ n ];
+}
+```
+
+##### 动态规划 (自底向上)
+
+```js
+function fib3(n) {
+    let dp = [ 0, 1, 1 ];
+
+    for (let i = 3; i <= n; i++) {
+        dp[ i ] = dp[ i - 2 ] + dp[ i - 1 ];
+    }
+
+    return dp[ n ];
+}
+```
+
+##### 动态规划 (优化)
+
+```js
+function fib4(n) {
+    if (n <= 2) {
+        return 1;
+    }
+
+    let prev1 = 1, prev2 = 1;
+
+    for (let i = 3; i <= n; i++) {
+        let sum = prev1 + prev2;
+        prev1 = prev2;
+        prev2 = sum;
+    }
+
+    return prev2;
+}
+```
+
 
 
   
