@@ -6,7 +6,7 @@ let obj = { a: { b: { c: 1 } } };
 function get(obj, path) {
     let props = path.split('.');
 
-    if (typeof obj !== 'object' || obj == null) {
+    if (Object.prototype.toString.call(obj) !== '[object Object]') {
         return obj
     } else if (props.length === 1) {
         return obj[ props[ 0 ] ];

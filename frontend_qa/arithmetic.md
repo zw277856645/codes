@@ -34,5 +34,7 @@
 - [674 (最长连续递增序列)](https://leetcode-cn.com/problems/longest-continuous-increasing-subsequence/)
 - [72 (编辑距离)](https://leetcode-cn.com/problems/edit-distance/)
 - [887 (高楼扔鸡蛋)](https://leetcode-cn.com/problems/super-egg-drop/)
-
+- [1025 (除数博弈)](https://leetcode-cn.com/problems/divisor-game/)
+- [292 (Nim 游戏)](https://leetcode-cn.com/problems/nim-game/)
+- [877 (石子游戏)](https://leetcode-cn.com/problems/stone-game/)
 
