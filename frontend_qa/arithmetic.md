@@ -34,6 +34,8 @@
 - [674 (最长连续递增序列)](https://leetcode-cn.com/problems/longest-continuous-increasing-subsequence/)
 - [72 (编辑距离)](https://leetcode-cn.com/problems/edit-distance/)
 - [887 (高楼扔鸡蛋)](https://leetcode-cn.com/problems/super-egg-drop/)
+- [651 (4键键盘)](https://leetcode-cn.com/problems/4-keys-keyboard/)
+- [10 (正则表达式匹配)](https://leetcode-cn.com/problems/regular-expression-matching/)
 - 博弈
   - [1025 (除数博弈)](https://leetcode-cn.com/problems/divisor-game/)
   - [292 (Nim 游戏)](https://leetcode-cn.com/problems/nim-game/)
@@ -48,7 +50,11 @@
   - [188 (买卖股票的最佳时机 IV)](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iv/)
   - [309 (最佳买卖股票时机含冷冻期)](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/)
   - [714 (买卖股票的最佳时机含手续费)](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/)
-  
+- 打家劫舍
+  - [198 (打家劫舍)](https://leetcode-cn.com/problems/house-robber/)
+  - [213 (打家劫舍 II)](https://leetcode-cn.com/problems/house-robber-ii/)
+  - [337 (打家劫舍 III)](https://leetcode-cn.com/problems/house-robber-iii/)
+
 ---
 
 #### 贪心
