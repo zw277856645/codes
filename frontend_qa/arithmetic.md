@@ -54,6 +54,9 @@
   - [198 (打家劫舍)](https://leetcode-cn.com/problems/house-robber/)
   - [213 (打家劫舍 II)](https://leetcode-cn.com/problems/house-robber-ii/)
   - [337 (打家劫舍 III)](https://leetcode-cn.com/problems/house-robber-iii/)
+- 回溯（不含重复子问题，无法优化）
+  - [46 (全排列)](https://leetcode-cn.com/problems/permutations/)
+  - [47 (全排列 II)](https://leetcode-cn.com/problems/permutations-ii/)
 
 ---
 
