@@ -1,4 +1,4 @@
-#### 滑动窗口
+#### 滑动窗口（双指针）
 
 ##### leetCode
 
@@ -9,11 +9,22 @@
 
 ---
 
-#### 二分查找
+#### 二分查找（左右指针）
 
 ##### leetCode
 
 - [4 (两个正序数组的中位数)](https://leetcode-cn.com/problems/median-of-two-sorted-arrays/)
+
+---
+
+#### 快慢指针
+
+##### leetCode
+
+- [141 (环形链表)](https://leetcode-cn.com/problems/linked-list-cycle/)
+- [142 (环形链表 II)](https://leetcode-cn.com/problems/linked-list-cycle-ii/)
+- [876 (链表的中间结点)](https://leetcode-cn.com/problems/middle-of-the-linked-list/)
+- [19 (删除链表的倒数第N个节点)](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/)
 
 ---
 
@@ -32,6 +43,7 @@
 - [5 (最长回文子串)](https://leetcode-cn.com/problems/longest-palindromic-substring/)
 - [673 (最长递增子序列的个数)](https://leetcode-cn.com/problems/number-of-longest-increasing-subsequence/)
 - [674 (最长连续递增序列)](https://leetcode-cn.com/problems/longest-continuous-increasing-subsequence/)
+- [1143 (最长公共子序列)](https://leetcode-cn.com/problems/longest-common-subsequence/)
 - [72 (编辑距离)](https://leetcode-cn.com/problems/edit-distance/)
 - [887 (高楼扔鸡蛋)](https://leetcode-cn.com/problems/super-egg-drop/)
 - [651 (4键键盘)](https://leetcode-cn.com/problems/4-keys-keyboard/)
@@ -70,3 +82,4 @@
 - [435 (无重叠区间)](https://leetcode-cn.com/problems/non-overlapping-intervals/)
 - [452 (用最少数量的箭引爆气球)](https://leetcode-cn.com/problems/minimum-number-of-arrows-to-burst-balloons/)
 
+---
