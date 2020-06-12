@@ -72,7 +72,10 @@
   - [784 (字母大小写全排列)](https://leetcode-cn.com/problems/letter-case-permutation/)
   - [51 (N皇后)](https://leetcode-cn.com/problems/n-queens/)
   - [52 (N皇后 II)](https://leetcode-cn.com/problems/n-queens-ii/)
-
+  - [78 (子集)](https://leetcode-cn.com/problems/subsets/)
+  - [90 (子集 II)](https://leetcode-cn.com/problems/subsets-ii/)
+  - [77 (组合)](https://leetcode-cn.com/problems/combinations/)
+  
 ---
 
 #### 贪心
