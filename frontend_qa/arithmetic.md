@@ -86,3 +86,35 @@
 - [452 (用最少数量的箭引爆气球)](https://leetcode-cn.com/problems/minimum-number-of-arrows-to-burst-balloons/)
 
 ---
+
+#### 煎饼排序
+
+##### leetCode
+
+- [969 (煎饼排序)](https://leetcode-cn.com/problems/pancake-sorting/)
+
+---
+
+#### 前缀和
+
+##### leetCode
+
+- [560 (和为K的子数组)](https://leetcode-cn.com/problems/subarray-sum-equals-k/)
+
+---
+
+#### FloodFill
+
+##### leetCode
+
+- [463 (岛屿的周长)](https://leetcode-cn.com/problems/island-perimeter/)
+
+---
+
+#### 并查集
+
+##### leetCode
+
+- [305 (岛屿数量 II)](https://leetcode-cn.com/problems/number-of-islands-ii/)
+
+
