@@ -49,6 +49,7 @@
 - [887 (高楼扔鸡蛋)](https://leetcode-cn.com/problems/super-egg-drop/)
 - [651 (4键键盘)](https://leetcode-cn.com/problems/4-keys-keyboard/)
 - [10 (正则表达式匹配)](https://leetcode-cn.com/problems/regular-expression-matching/)
+- [322 (零钱兑换)](https://leetcode-cn.com/problems/coin-change/)
 - 博弈
   - [1025 (除数博弈)](https://leetcode-cn.com/problems/divisor-game/)
   - [292 (Nim 游戏)](https://leetcode-cn.com/problems/nim-game/)
@@ -76,6 +77,10 @@
   - [78 (子集)](https://leetcode-cn.com/problems/subsets/)
   - [90 (子集 II)](https://leetcode-cn.com/problems/subsets-ii/)
   - [77 (组合)](https://leetcode-cn.com/problems/combinations/)
+- 01背包
+  - [416 (分割等和子集)](https://leetcode-cn.com/problems/partition-equal-subset-sum/) 
+  - [1049 (最后一块石头的重量 II)](https://leetcode-cn.com/problems/last-stone-weight-ii/)
+  - [474 (一和零)]()
   
 ---
 
@@ -125,6 +130,8 @@
 - [124 (最大路径和)](https://leetcode-cn.com/problems/binary-tree-maximum-path-sum/)
 - [105 (从前序与中序遍历序列构造二叉树)](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
 - [106 (从中序与后序遍历序列构造二叉树)](https://leetcode-cn.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/)
+- [889 (从前序和后序遍历序列构造二叉树)](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/)
+- [99 (恢复二叉搜索树)](https://leetcode-cn.com/problems/recover-binary-search-tree/)
 
 ---
 
