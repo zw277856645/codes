@@ -87,14 +87,6 @@
 
 ---
 
-#### 煎饼排序
-
-##### leetCode
-
-- [969 (煎饼排序)](https://leetcode-cn.com/problems/pancake-sorting/)
-
----
-
 #### 前缀和
 
 ##### leetCode
@@ -107,6 +99,9 @@
 
 ##### leetCode
 
+- [08.10 (颜色填充)](https://leetcode-cn.com/problems/color-fill-lcci/)
+- [695 (岛屿的最大面积)](https://leetcode-cn.com/problems/max-area-of-island/)
+- [200 (岛屿数量)](https://leetcode-cn.com/problems/number-of-islands/)
 - [463 (岛屿的周长)](https://leetcode-cn.com/problems/island-perimeter/)
 
 ---
@@ -116,5 +111,14 @@
 ##### leetCode
 
 - [305 (岛屿数量 II)](https://leetcode-cn.com/problems/number-of-islands-ii/)
+
+---
+
+#### 其他
+
+##### leetCode
+
+- [43 (字符串相乘)](https://leetcode-cn.com/problems/multiply-strings/)
+- [969 (煎饼排序)](https://leetcode-cn.com/problems/pancake-sorting/)
 
 
