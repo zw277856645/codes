@@ -42,6 +42,7 @@
 
 - [5 (最长回文子串)](https://leetcode-cn.com/problems/longest-palindromic-substring/)
 - [673 (最长递增子序列的个数)](https://leetcode-cn.com/problems/number-of-longest-increasing-subsequence/)
+- [354 (俄罗斯套娃信封问题)](https://leetcode-cn.com/problems/russian-doll-envelopes/)
 - [674 (最长连续递增序列)](https://leetcode-cn.com/problems/longest-continuous-increasing-subsequence/)
 - [1143 (最长公共子序列)](https://leetcode-cn.com/problems/longest-common-subsequence/)
 - [72 (编辑距离)](https://leetcode-cn.com/problems/edit-distance/)
@@ -84,6 +85,8 @@
 
 - [435 (无重叠区间)](https://leetcode-cn.com/problems/non-overlapping-intervals/)
 - [452 (用最少数量的箭引爆气球)](https://leetcode-cn.com/problems/minimum-number-of-arrows-to-burst-balloons/)
+- [56 (合并区间)](https://leetcode-cn.com/problems/merge-intervals/)
+- [986 (区间列表的交集)](https://leetcode-cn.com/problems/interval-list-intersections/)
 
 ---
 
@@ -111,6 +114,17 @@
 ##### leetCode
 
 - [305 (岛屿数量 II)](https://leetcode-cn.com/problems/number-of-islands-ii/)
+
+---
+
+#### 二叉树
+
+##### leetCode
+
+- [437 (路径总和 III)](https://leetcode-cn.com/problems/path-sum-iii/)
+- [124 (最大路径和)](https://leetcode-cn.com/problems/binary-tree-maximum-path-sum/)
+- [105 (从前序与中序遍历序列构造二叉树)](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
+- [106 (从中序与后序遍历序列构造二叉树)](https://leetcode-cn.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/)
 
 ---
 
