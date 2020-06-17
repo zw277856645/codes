@@ -114,7 +114,7 @@
 
 ##### leetCode
 
-- [08.10 (颜色填充)](https://leetcode-cn.com/problems/color-fill-lcci/)
+- [面试题 08.10 (颜色填充)](https://leetcode-cn.com/problems/color-fill-lcci/)
 - [695 (岛屿的最大面积)](https://leetcode-cn.com/problems/max-area-of-island/)
 - [200 (岛屿数量)](https://leetcode-cn.com/problems/number-of-islands/)
 - [463 (岛屿的周长)](https://leetcode-cn.com/problems/island-perimeter/)
@@ -133,12 +133,17 @@
 
 ##### leetCode
 
+- [144 (二叉树的前序遍历)](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/)
+- [145 (二叉树的后序遍历)](https://leetcode-cn.com/problems/binary-tree-postorder-traversal/)
+- [94 (二叉树的中序遍历)](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/)
 - [437 (路径总和 III)](https://leetcode-cn.com/problems/path-sum-iii/)
 - [124 (最大路径和)](https://leetcode-cn.com/problems/binary-tree-maximum-path-sum/)
 - [105 (从前序与中序遍历序列构造二叉树)](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
 - [106 (从中序与后序遍历序列构造二叉树)](https://leetcode-cn.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/)
 - [889 (从前序和后序遍历序列构造二叉树)](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/)
 - [99 (恢复二叉搜索树)](https://leetcode-cn.com/problems/recover-binary-search-tree/)
+- [面试题 27 (二叉树的镜像)](https://leetcode-cn.com/problems/er-cha-shu-de-jing-xiang-lcof/)
+- [101 (对称二叉树)](https://leetcode-cn.com/problems/symmetric-tree/)
 
 ---
 
