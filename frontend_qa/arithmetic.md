@@ -49,7 +49,7 @@
 - [887 (高楼扔鸡蛋)](https://leetcode-cn.com/problems/super-egg-drop/)
 - [651 (4键键盘)](https://leetcode-cn.com/problems/4-keys-keyboard/)
 - [10 (正则表达式匹配)](https://leetcode-cn.com/problems/regular-expression-matching/)
-- [322 (零钱兑换)](https://leetcode-cn.com/problems/coin-change/)
+- [139 (单词拆分)](https://leetcode-cn.com/problems/word-break/)
 - 博弈
   - [1025 (除数博弈)](https://leetcode-cn.com/problems/divisor-game/)
   - [292 (Nim 游戏)](https://leetcode-cn.com/problems/nim-game/)
@@ -77,11 +77,18 @@
   - [78 (子集)](https://leetcode-cn.com/problems/subsets/)
   - [90 (子集 II)](https://leetcode-cn.com/problems/subsets-ii/)
   - [77 (组合)](https://leetcode-cn.com/problems/combinations/)
-- 01背包
-  - [416 (分割等和子集)](https://leetcode-cn.com/problems/partition-equal-subset-sum/) 
-  - [1049 (最后一块石头的重量 II)](https://leetcode-cn.com/problems/last-stone-weight-ii/)
-  - [474 (一和零)]()
-  
+- 背包
+  - True / False
+    - [416 (分割等和子集)](https://leetcode-cn.com/problems/partition-equal-subset-sum/) 
+  - 最值
+    - [1049 (最后一块石头的重量 II)](https://leetcode-cn.com/problems/last-stone-weight-ii/)
+    - [474 (一和零)](https://leetcode-cn.com/problems/ones-and-zeroes/)
+    - [322 (零钱兑换)](https://leetcode-cn.com/problems/coin-change/)
+  - 排列（无序）
+    - [377 (组合总和 Ⅳ)](https://leetcode-cn.com/problems/combination-sum-iv/)
+  - 组合（有序）
+    - [518 (零钱兑换 II)](https://leetcode-cn.com/problems/coin-change-2/)
+ 
 ---
 
 #### 贪心
@@ -141,5 +148,5 @@
 
 - [43 (字符串相乘)](https://leetcode-cn.com/problems/multiply-strings/)
 - [969 (煎饼排序)](https://leetcode-cn.com/problems/pancake-sorting/)
-
+- [146 (LRU缓存机制)](https://leetcode-cn.com/problems/lru-cache/)
 
