@@ -68,15 +68,6 @@
   - [198 (打家劫舍)](https://leetcode-cn.com/problems/house-robber/)
   - [213 (打家劫舍 II)](https://leetcode-cn.com/problems/house-robber-ii/)
   - [337 (打家劫舍 III)](https://leetcode-cn.com/problems/house-robber-iii/)
-- 回溯（不含重复子问题，无法优化）
-  - [46 (全排列)](https://leetcode-cn.com/problems/permutations/)
-  - [47 (全排列 II)](https://leetcode-cn.com/problems/permutations-ii/)
-  - [784 (字母大小写全排列)](https://leetcode-cn.com/problems/letter-case-permutation/)
-  - [51 (N皇后)](https://leetcode-cn.com/problems/n-queens/)
-  - [52 (N皇后 II)](https://leetcode-cn.com/problems/n-queens-ii/)
-  - [78 (子集)](https://leetcode-cn.com/problems/subsets/)
-  - [90 (子集 II)](https://leetcode-cn.com/problems/subsets-ii/)
-  - [77 (组合)](https://leetcode-cn.com/problems/combinations/)
 - 背包
   - True / False
     - [416 (分割等和子集)](https://leetcode-cn.com/problems/partition-equal-subset-sum/) 
@@ -136,13 +127,17 @@
 - [144 (前序遍历)](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/)
 - [145 (后序遍历)](https://leetcode-cn.com/problems/binary-tree-postorder-traversal/)
 - [94 (中序遍历)](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/)
+- [112 (路径总和)](https://leetcode-cn.com/problems/path-sum/)
+- [113 (路径总和 II)](https://leetcode-cn.com/problems/path-sum-ii/)
 - [437 (路径总和 III)](https://leetcode-cn.com/problems/path-sum-iii/)
 - [124 (最大路径和)](https://leetcode-cn.com/problems/binary-tree-maximum-path-sum/)
 - [105 (从前序与中序遍历序列构造二叉树)](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
 - [106 (从中序与后序遍历序列构造二叉树)](https://leetcode-cn.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/)
 - [889 (从前序和后序遍历序列构造二叉树)](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/)
 - [99 (恢复二叉搜索树)](https://leetcode-cn.com/problems/recover-binary-search-tree/)
-- [面试题 27 (二叉树的镜像)](https://leetcode-cn.com/problems/er-cha-shu-de-jing-xiang-lcof/)
+- [226 (翻转二叉树)](https://leetcode-cn.com/problems/er-cha-shu-de-jing-xiang-lcof/)
+- [104 (二叉树的最大深度)](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/)
+- [110 (平衡二叉树)](https://leetcode-cn.com/problems/balanced-binary-tree/)
 
 ---
 
@@ -157,10 +152,26 @@
   - [199 (二叉树的右视图)](https://leetcode-cn.com/problems/binary-tree-right-side-view/)
   - [515 (二叉树在每个树行中找最大值)](https://leetcode-cn.com/problems/find-largest-value-in-each-tree-row/)
   - [637 (二叉树的层平均值)](https://leetcode-cn.com/problems/average-of-levels-in-binary-tree/)
+  - [297 (二叉树的序列化与反序列化)](https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tree/)
 - 网格
   - [1162 (地图分析)](https://leetcode-cn.com/problems/as-far-from-land-as-possible/)
   - [542 (01 矩阵)](https://leetcode-cn.com/problems/01-matrix/)
  
+---
+
+#### 回溯
+
+##### leetCode
+
+- [46 (全排列)](https://leetcode-cn.com/problems/permutations/)
+- [47 (全排列 II)](https://leetcode-cn.com/problems/permutations-ii/)
+- [784 (字母大小写全排列)](https://leetcode-cn.com/problems/letter-case-permutation/)
+- [51 (N皇后)](https://leetcode-cn.com/problems/n-queens/)
+- [52 (N皇后 II)](https://leetcode-cn.com/problems/n-queens-ii/)
+- [78 (子集)](https://leetcode-cn.com/problems/subsets/)
+- [90 (子集 II)](https://leetcode-cn.com/problems/subsets-ii/)
+- [77 (组合)](https://leetcode-cn.com/problems/combinations/)
+  
 ---
 
 #### 其他
