@@ -133,9 +133,9 @@
 
 ##### leetCode
 
-- [144 (二叉树的前序遍历)](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/)
-- [145 (二叉树的后序遍历)](https://leetcode-cn.com/problems/binary-tree-postorder-traversal/)
-- [94 (二叉树的中序遍历)](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/)
+- [144 (前序遍历)](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/)
+- [145 (后序遍历)](https://leetcode-cn.com/problems/binary-tree-postorder-traversal/)
+- [94 (中序遍历)](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/)
 - [437 (路径总和 III)](https://leetcode-cn.com/problems/path-sum-iii/)
 - [124 (最大路径和)](https://leetcode-cn.com/problems/binary-tree-maximum-path-sum/)
 - [105 (从前序与中序遍历序列构造二叉树)](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
@@ -143,8 +143,24 @@
 - [889 (从前序和后序遍历序列构造二叉树)](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/)
 - [99 (恢复二叉搜索树)](https://leetcode-cn.com/problems/recover-binary-search-tree/)
 - [面试题 27 (二叉树的镜像)](https://leetcode-cn.com/problems/er-cha-shu-de-jing-xiang-lcof/)
-- [101 (对称二叉树)](https://leetcode-cn.com/problems/symmetric-tree/)
 
+---
+
+#### BFS
+
+##### leetCode
+
+- 二叉树
+  - [101 (对称二叉树)](https://leetcode-cn.com/problems/symmetric-tree/)
+  - [102 (二叉树层序遍历)](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/)
+  - [103 (二叉树锯齿形层次遍历)](https://leetcode-cn.com/problems/binary-tree-zigzag-level-order-traversal/)
+  - [199 (二叉树的右视图)](https://leetcode-cn.com/problems/binary-tree-right-side-view/)
+  - [515 (二叉树在每个树行中找最大值)](https://leetcode-cn.com/problems/find-largest-value-in-each-tree-row/)
+  - [637 (二叉树的层平均值)](https://leetcode-cn.com/problems/average-of-levels-in-binary-tree/)
+- 网格
+  - [1162 (地图分析)](https://leetcode-cn.com/problems/as-far-from-land-as-possible/)
+  - [542 (01 矩阵)](https://leetcode-cn.com/problems/01-matrix/)
+ 
 ---
 
 #### 其他
