@@ -178,3 +178,45 @@ function merge(arr) {
 }
 
 console.log(merge(list));
+
+// --------------------------------------------------------------------------------------------
+
+function heapSort(arr) {
+    build(arr);
+
+    for (let i = arr.length - 1; i >= 1; i--) {
+        swap(arr, 0, i);
+        adjust(arr, 0, i - 1);
+    }
+
+    return arr;
+}
+
+function build(arr) {
+    // 第一个非叶子节点为：arr.length / 2
+    for (let i = Math.floor(arr.length / 2); i >= 0; i--) {
+        adjust(arr, i, arr.length - 1);
+    }
+}
+
+function adjust(arr, i, end) {
+    let left = i * 2 + 1;
+    let right = i * 2 + 2;
+
+    if (left <= end && arr[ left ] > arr[ i ]) {
+        swap(arr, i, left);
+        adjust(arr, left, end);
+    }
+    if (right <= end && arr[ right ] > arr[ i ]) {
+        swap(arr, i, right);
+        adjust(arr, right, end);
+    }
+}
+
+function swap(arr, i, j) {
+    let tmp = arr[ i ];
+    arr[ i ] = arr[ j ];
+    arr[ j ] = tmp;
+}
+
+console.log(heapSort([ 3, 2, 15, 4, 8, 1, 13, 7, 0, 9, 2, 6, -1, -1 ]));

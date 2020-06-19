@@ -137,7 +137,10 @@
 - [99 (恢复二叉搜索树)](https://leetcode-cn.com/problems/recover-binary-search-tree/)
 - [226 (翻转二叉树)](https://leetcode-cn.com/problems/er-cha-shu-de-jing-xiang-lcof/)
 - [104 (二叉树的最大深度)](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/)
+- [111 (二叉树的最小深度)](https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/)
 - [110 (平衡二叉树)](https://leetcode-cn.com/problems/balanced-binary-tree/)
+- [236 (二叉树的最近公共祖先)](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/)
+- [114 (二叉树展开为链表)](https://leetcode-cn.com/problems/flatten-binary-tree-to-linked-list/)
 
 ---
 
@@ -156,6 +159,7 @@
 - 网格
   - [1162 (地图分析)](https://leetcode-cn.com/problems/as-far-from-land-as-possible/)
   - [542 (01 矩阵)](https://leetcode-cn.com/problems/01-matrix/)
+  - [994 (腐烂的橘子)](https://leetcode-cn.com/problems/rotting-oranges/)
  
 ---
 
@@ -181,4 +185,5 @@
 - [43 (字符串相乘)](https://leetcode-cn.com/problems/multiply-strings/)
 - [969 (煎饼排序)](https://leetcode-cn.com/problems/pancake-sorting/)
 - [146 (LRU缓存机制)](https://leetcode-cn.com/problems/lru-cache/)
-
+- [155 (最小栈)](https://leetcode-cn.com/problems/min-stack/)
+- [716 (最大栈)](https://leetcode-cn.com/problems/max-stack/)
