@@ -9,11 +9,13 @@
 
 ---
 
-#### 二分查找（左右指针）
+#### 左右指针
 
 ##### leetCode
 
-- [4 (两个正序数组的中位数)](https://leetcode-cn.com/problems/median-of-two-sorted-arrays/)
+- [42 (接雨水)](https://leetcode-cn.com/problems/trapping-rain-water/)
+- 二分查找
+  - [4 (两个正序数组的中位数)](https://leetcode-cn.com/problems/median-of-two-sorted-arrays/)
 
 ---
 
@@ -141,6 +143,9 @@
 - [110 (平衡二叉树)](https://leetcode-cn.com/problems/balanced-binary-tree/)
 - [236 (二叉树的最近公共祖先)](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/)
 - [114 (二叉树展开为链表)](https://leetcode-cn.com/problems/flatten-binary-tree-to-linked-list/)
+- [257 (二叉树的所有路径)](https://leetcode-cn.com/problems/binary-tree-paths/)
+- [298 (二叉树最长连续序列)](https://leetcode-cn.com/problems/binary-tree-longest-consecutive-sequence/)
+- [314 (二叉树的垂直遍历)](https://leetcode-cn.com/problems/binary-tree-vertical-order-traversal/)
 
 ---
 
@@ -178,6 +183,16 @@
   
 ---
 
+#### 单调栈
+
+##### leetCode
+
+- [496 (下一个更大元素 I)](https://leetcode-cn.com/problems/next-greater-element-i/)
+- [503 (下一个更大元素 II)](https://leetcode-cn.com/problems/next-greater-element-ii/)
+- [739 (每日温度)](https://leetcode-cn.com/problems/daily-temperatures/)
+
+---
+
 #### 其他
 
 ##### leetCode
@@ -187,3 +202,5 @@
 - [146 (LRU缓存机制)](https://leetcode-cn.com/problems/lru-cache/)
 - [155 (最小栈)](https://leetcode-cn.com/problems/min-stack/)
 - [716 (最大栈)](https://leetcode-cn.com/problems/max-stack/)
+
+
