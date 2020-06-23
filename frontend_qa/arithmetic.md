@@ -202,5 +202,5 @@
 - [146 (LRU缓存机制)](https://leetcode-cn.com/problems/lru-cache/)
 - [155 (最小栈)](https://leetcode-cn.com/problems/min-stack/)
 - [716 (最大栈)](https://leetcode-cn.com/problems/max-stack/)
-
-
+- [206 (反转链表)](https://leetcode-cn.com/problems/reverse-linked-list/)
+- [92 (反转链表 II)](https://leetcode-cn.com/problems/reverse-linked-list-ii/)
