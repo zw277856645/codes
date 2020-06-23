@@ -16,7 +16,9 @@
 - [42 (接雨水)](https://leetcode-cn.com/problems/trapping-rain-water/)
 - 二分查找
   - [4 (两个正序数组的中位数)](https://leetcode-cn.com/problems/median-of-two-sorted-arrays/)
-
+  - [875 (爱吃香蕉的珂珂)](https://leetcode-cn.com/problems/koko-eating-bananas/)
+  - [1011 (在 D 天内送达包裹的能力)](https://leetcode-cn.com/problems/capacity-to-ship-packages-within-d-days/)
+  
 ---
 
 #### 快慢指针
@@ -27,6 +29,8 @@
 - [142 (环形链表 II)](https://leetcode-cn.com/problems/linked-list-cycle-ii/)
 - [876 (链表的中间结点)](https://leetcode-cn.com/problems/middle-of-the-linked-list/)
 - [19 (删除链表的倒数第N个节点)](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/)
+- [26 (删除排序数组中的重复项)](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/)
+- [80 (删除排序数组中的重复项 II)](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array-ii/)
 
 ---
 
@@ -204,3 +208,10 @@
 - [716 (最大栈)](https://leetcode-cn.com/problems/max-stack/)
 - [206 (反转链表)](https://leetcode-cn.com/problems/reverse-linked-list/)
 - [92 (反转链表 II)](https://leetcode-cn.com/problems/reverse-linked-list-ii/)
+- [25 (K 个一组翻转链表)](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/)
+- [234 (回文链表)](https://leetcode-cn.com/problems/palindrome-linked-list/)
+- [面试题 17.04 (消失的数字)](https://leetcode-cn.com/problems/missing-number-lcci/)
+- [645 (错误的集合)](https://leetcode-cn.com/problems/set-mismatch/)
+- 水塘抽样
+  - [382 (链表随机节点)](https://leetcode-cn.com/problems/linked-list-random-node/)
+  - [398 (随机数索引)](https://leetcode-cn.com/problems/random-pick-index/)
