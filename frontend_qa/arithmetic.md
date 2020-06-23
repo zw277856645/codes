@@ -123,6 +123,7 @@
 ##### leetCode
 
 - [305 (岛屿数量 II)](https://leetcode-cn.com/problems/number-of-islands-ii/)
+- [990 (等式方程的可满足性)](https://leetcode-cn.com/problems/satisfiability-of-equality-equations/)
 
 ---
 
