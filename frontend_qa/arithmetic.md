@@ -52,17 +52,16 @@
 - [674 (最长连续递增序列)](https://leetcode-cn.com/problems/longest-continuous-increasing-subsequence/)
 - [1143 (最长公共子序列)](https://leetcode-cn.com/problems/longest-common-subsequence/)
 - [72 (编辑距离)](https://leetcode-cn.com/problems/edit-distance/)
-- [887 (高楼扔鸡蛋)](https://leetcode-cn.com/problems/super-egg-drop/)
-- [651 (4键键盘)](https://leetcode-cn.com/problems/4-keys-keyboard/)
-- [10 (正则表达式匹配)](https://leetcode-cn.com/problems/regular-expression-matching/)
-- [139 (单词拆分)](https://leetcode-cn.com/problems/word-break/)
+- `err` [887 (高楼扔鸡蛋)](https://leetcode-cn.com/problems/super-egg-drop/)
+- `err` [651 (4键键盘)](https://leetcode-cn.com/problems/4-keys-keyboard/)
+- `err` [139 (单词拆分)](https://leetcode-cn.com/problems/word-break/)
 - 博弈
   - [1025 (除数博弈)](https://leetcode-cn.com/problems/divisor-game/)
   - [292 (Nim 游戏)](https://leetcode-cn.com/problems/nim-game/)
   - [877 (石子游戏)](https://leetcode-cn.com/problems/stone-game/)
   - [486 (预测赢家)](https://leetcode-cn.com/problems/predict-the-winner/)
 - KMP
-  - [28 (实现 strStr)](https://leetcode-cn.com/problems/implement-strstr/)
+  - `err` [28 (实现 strStr)](https://leetcode-cn.com/problems/implement-strstr/)
 - 股票
   - [121 (买卖股票的最佳时机)](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/)
   - [122 (买卖股票的最佳时机 II)](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/)
@@ -213,6 +212,7 @@
 - [234 (回文链表)](https://leetcode-cn.com/problems/palindrome-linked-list/)
 - [面试题 17.04 (消失的数字)](https://leetcode-cn.com/problems/missing-number-lcci/)
 - [645 (错误的集合)](https://leetcode-cn.com/problems/set-mismatch/)
+- `err` [10 (正则表达式匹配)](https://leetcode-cn.com/problems/regular-expression-matching/)
 - 水塘抽样
   - [382 (链表随机节点)](https://leetcode-cn.com/problems/linked-list-random-node/)
   - [398 (随机数索引)](https://leetcode-cn.com/problems/random-pick-index/)

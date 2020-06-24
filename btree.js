@@ -4,23 +4,41 @@ function TreeNode(val, left, right) {
     this.right = (right === undefined ? null : right)
 }
 
+function Node(fir, sec) {
+    this.fir = fir;
+    this.sec = sec;
+}
 
-var Solution = function (nums) {
-    this.nums = nums;
+
+var stoneGame = function (nums) {
+
 };
 
-Solution.prototype.pick = function (target) {
-    let index, count = 0;
+class KMP {
 
-    for (let i = 0; i < this.nums.length) {
-        if (this.nums[ i ] === target) {
-            count++;
+    constructor(pattern) {
+        if (!pattern) {
+            return;
+        }
 
-            if (Number.parseInt(Math.random() * count) === 0) {
-                index = i;
+        this.pattern = pattern;
+
+        let n = pattern.length;
+
+        this.dp = {};
+
+        let x = 0;
+
+        for (let s = 0; s < n; s++) {
+            if (dp[pattern[s].charCodeAt(0)]) {
+
             }
         }
     }
 
-    return index;
-};
+    search(text) {
+        if (!thi)
+    }
+}
+
+console.log(isMatch('letcte', [ 'let', 'cte' ]))
