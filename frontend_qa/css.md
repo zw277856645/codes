@@ -24,13 +24,11 @@
 ##### 圣杯布局 
 
 ```html
-<div id="header"></div>
-<div id="container">
-  <div id="center" class="column"></div>
-  <div id="left" class="column"></div>
-  <div id="right" class="column"></div>
+<div class="container">
+  <div class="column center"></div>
+  <div class="column left"></div>
+  <div class="column right"></div>
 </div>
-<div id="footer"></div>
 ```
 
 ```css
@@ -38,46 +36,40 @@ body {
   min-width: 550px;
 }
 
-#container {
+.container {
   padding-left: 200px; 
   padding-right: 150px;
 }
 
-#container .column {
+.container .column {
   float: left;
 }
 
-#center {
+.center {
   width: 100%;
 }
 
-#left {
+.left {
   width: 200px; 
   margin-left: -100%;
   position: relative;
   right: 200px;
 }
 
-#right {
+.right {
   width: 150px; 
   margin-right: -150px; 
-}
-
-#footer {
-  clear: both;
 }
 ```
 
 ##### 双飞翼布局
 
 ```html
-<div id="header"></div>
-<div id="container" class="column">
-  <div id="center"></div>
+<div class="column container">
+  <div class="center"></div>
 </div>
-<div id="left" class="column"></div>
-<div id="right" class="column"></div>
-<div id="footer"></div>
+<div class="column left"></div>
+<div class="column right"></div>
 ```
 
 ```css
@@ -85,7 +77,7 @@ body {
   min-width: 350px;
 }
 
-#container {
+.container {
   width: 100%;
 }
 
@@ -93,53 +85,47 @@ body {
   float: left;
 }
         
-#center {
+.center {
   margin-left: 200px;
   margin-right: 150px;
 }
         
-#left {
+.left {
   width: 200px; 
   margin-left: -100%;
 }
         
-#right {
+.right {
   width: 150px; 
   margin-left: -150px;
-}
-        
-#footer {
-  clear: both;
 }
 ```
 
 ##### flex 布局
 
 ```html
-<div id="header"></div>
-<div id="container">
-  <div id="center" class="column"></div>
-  <div id="left" class="column"></div>
-  <div id="right" class="column"></div>
+<div class="container">
+  <div class="center"></div>
+  <div class="left"></div>
+  <div class="right"></div>
 </div>
-<div id="footer"></div>
 ```
 
 ```css
-#container {
+.container {
   display: flex;
 }
 
-#center {
+.center {
   flex: 1;
 }
 
-#left {
+.left {
   flex: 0 0 200px;
   order: -1;
 }
 
-#right {
+.right {
   flex: 0 0 150px;
 }
 ```
@@ -147,17 +133,15 @@ body {
 ##### grid 布局
 
 ```html
-<div id="header"></div>
-<div id="container">
-  <div id="center" class="column"></div>
-  <div id="left" class="column"></div>
-  <div id="right" class="column"></div>
+<div class="container">
+  <div class="left"></div>
+  <div class="center"></div>
+  <div class="right"></div>
 </div>
-<div id="footer"></div>
 ```
 
 ```css
-#container {
+.container {
   display: grid;
   grid-template-columns: 200px auto 150px;
 }
