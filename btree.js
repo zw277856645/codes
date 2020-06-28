@@ -17,27 +17,27 @@ var stoneGame = function (nums) {
 class KMP {
 
     constructor(pattern) {
+        this.pattern = pattern;
+
         if (!pattern) {
             return;
         }
-
-        this.pattern = pattern;
-
-        let n = pattern.length;
 
         this.dp = {};
 
         let x = 0;
 
-        for (let s = 0; s < n; s++) {
-            if (dp[pattern[s].charCodeAt(0)]) {
+        for (let s = 0; s < pattern.length; s++) {
+            if (dp[pattern[s].charCodeAt(0)] === ) {
 
             }
         }
     }
 
     search(text) {
-        if (!thi)
+        if (!this.pattern) {
+            return -1;
+        }
     }
 }
 
