@@ -32,7 +32,7 @@ class MyPromise {
                         this._data = err;
                         this._rejectQueue.forEach(cb => cb(this._data));
                     }
-                )
+                );
             } else {
                 this._data = value;
                 this._resolvedQueue.forEach(cb => cb(this._data));

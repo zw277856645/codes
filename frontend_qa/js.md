@@ -44,7 +44,7 @@
 
 #### 什么是函数柯里化？
 
-- 把接受多个参数的函数变换成接受一个单一参数的函数，并且返回接受余下的参数而且	返回结果的新函数的技术
+- 把接受多个参数的函数变换成接受一个单一参数的函数，并且返回接受余下的参数而且返回结果的新函数的技术
 
 #### 有什么优点？
 
@@ -55,7 +55,7 @@
 
 ```javascript
 function curry(fn) {
-    let args = [];
+    let args = Array.prototype.slice.call(arguments, 1);
 
     return function curryFn() {
         args = args.concat(Array.prototype.slice.call(arguments));
@@ -75,10 +75,9 @@ Function.prototype.bind = function (context) {
     let args = Array.prototype.slice.call(arguments, 1);
 
     return function () {
-        let innerArgs = Array.prototype.slice.call(arguments);
-        let allArgs = args.concat(innerArgs);
+        args = args.concat(Array.prototype.slice.call(arguments));
 
-        return self.apply(context, allArgs);
+        return self.apply(context, args);
     }
 }
 ```

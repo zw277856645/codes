@@ -1,44 +1,10 @@
-function TreeNode(val, left, right) {
-    this.val = (val === undefined ? 0 : val)
-    this.left = (left === undefined ? null : left)
-    this.right = (right === undefined ? null : right)
-}
+Function.prototype.bind = function (context) {
+    let self = this;
+    let args = Array.prototype.slice.call(arguments, 1);
 
-function Node(fir, sec) {
-    this.fir = fir;
-    this.sec = sec;
-}
+    return function () {
+        args.concat(Array.prototype.slice.call(arguments));
 
-
-var stoneGame = function (nums) {
-
-};
-
-class KMP {
-
-    constructor(pattern) {
-        this.pattern = pattern;
-
-        if (!pattern) {
-            return;
-        }
-
-        this.dp = {};
-
-        let x = 0;
-
-        for (let s = 0; s < pattern.length; s++) {
-            if (dp[pattern[s].charCodeAt(0)] === ) {
-
-            }
-        }
-    }
-
-    search(text) {
-        if (!this.pattern) {
-            return -1;
-        }
+        self.apply(context, args);
     }
 }
-
-console.log(isMatch('letcte', [ 'let', 'cte' ]))
