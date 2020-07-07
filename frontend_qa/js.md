@@ -138,12 +138,9 @@ function throttle(handler, time) {
     let flag = null;
 
     return function () {
-        let context = this;
-        let args = arguments;
-
         if (!flag) {
             flag = setTimeout(function () {
-                handler.apply(context, args);
+                handler();
                 flag = null;
             }, time);
         }
